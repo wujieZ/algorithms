@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be88dbbb-8d19-46d2-978a-11666029f9b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sort/insert/insert.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort/insert/insert_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/select/select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/select/select_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/bubble/bubble.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/bubble/bubble.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/bubble/bubble_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/bubble/bubble_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/insert/insert.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/insert/insert.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/insert/insert_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/insert/insert_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,23 +17,59 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/golang_algorithm$TestBubbleSort_in_golang_algorithm_sort_bubble.out" NAME="TestBubbleSort in golang-algorithm/sort/bubble Coverage Results" MODIFIED="1586186523222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/golang_algorithm$TestInsertSort_in_golang_algorithm_sort_insert.out" NAME="TestInsertSort in golang-algorithm/sort/insert Coverage Results" MODIFIED="1586305612670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="2" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="251" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sort/insert/insert.go">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/bubble/bubble.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="255">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/bubble/bubble_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+              <folding>
+                <element signature="e#16#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go.mod">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sort/insert/insert_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+            <state relative-caret-position="230">
+              <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sort/select/select_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="64" column="18" lean-forward="true" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+              <folding>
+                <element signature="e#17#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,10 +94,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/sort/bubble/bubble_test.go" />
         <option value="$PROJECT_DIR$/sort/bubble/bubble.go" />
-        <option value="$PROJECT_DIR$/sort/insert/insert_test.go" />
         <option value="$PROJECT_DIR$/sort/insert/insert.go" />
+        <option value="$PROJECT_DIR$/sort/select/select.go" />
+        <option value="$PROJECT_DIR$/sort/bubble/bubble_test.go" />
+        <option value="$PROJECT_DIR$/sort/select/select_test.go" />
+        <option value="$PROJECT_DIR$/sort/insert/insert_test.go" />
       </list>
     </option>
   </component>
@@ -98,6 +138,12 @@
               <item name="sort" type="462c0819:PsiDirectoryNode" />
               <item name="insert" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="golang-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="golang-algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="select" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -127,16 +173,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestInsertSort in golang-algorithm/sort/insert">
-    <configuration name="TestBubbleSort in golang-algorithm/sort/bubble" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.BenchmarkSort in golang-algorithm/sort/insert">
+    <configuration name="BenchmarkSort in golang-algorithm/sort/bubble" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang-algorithm" />
       <working_directory value="$PROJECT_DIR$/sort/bubble" />
-      <framework value="gotest" />
+      <framework value="gobench" />
       <kind value="PACKAGE" />
       <package value="golang-algorithm/sort/bubble" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestBubbleSort$" />
+      <pattern value="^BenchmarkSort$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkSort in golang-algorithm/sort/insert" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang-algorithm" />
+      <working_directory value="$PROJECT_DIR$/sort/insert" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="golang-algorithm/sort/insert" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkSort$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BenchmarkSort in golang-algorithm/sort/select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang-algorithm" />
+      <working_directory value="$PROJECT_DIR$/sort/select" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="golang-algorithm/sort/select" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkSort$" />
       <method v="2" />
     </configuration>
     <configuration name="TestInsertSort in golang-algorithm/sort/insert" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -150,43 +218,57 @@
       <pattern value="^TestInsertSort$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestSelectSort in golang-algorithm/sort/select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang-algorithm" />
+      <working_directory value="$PROJECT_DIR$/sort/select" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="golang-algorithm/sort/select" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSelectSort$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.BenchmarkSort in golang-algorithm/sort/insert" />
+        <item itemvalue="Go Test.BenchmarkSort in golang-algorithm/sort/select" />
+        <item itemvalue="Go Test.BenchmarkSort in golang-algorithm/sort/bubble" />
         <item itemvalue="Go Test.TestInsertSort in golang-algorithm/sort/insert" />
-        <item itemvalue="Go Test.TestBubbleSort in golang-algorithm/sort/bubble" />
+        <item itemvalue="Go Test.TestSelectSort in golang-algorithm/sort/select" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestInsertSort_in_golang-algorithm_sort_insert - 2020.04.07 at 11h 41m 34s.xml">
-      <configuration name="TestInsertSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkSort_in_golang-algorithm_sort_bubble - 2020.04.08 at 22h 15m 00s.xml">
+      <configuration name="BenchmarkSort in golang-algorithm/sort/bubble" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInsertSort_in_golang-algorithm_sort_insert - 2020.04.07 at 11h 42m 24s.xml">
-      <configuration name="TestInsertSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkSort_in_golang-algorithm_sort_insert - 2020.04.08 at 22h 15m 15s.xml">
+      <configuration name="BenchmarkSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInsertSort_in_golang-algorithm_sort_insert - 2020.04.07 at 11h 44m 20s.xml">
-      <configuration name="TestInsertSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkSort_in_golang-algorithm_sort_insert - 2020.04.08 at 22h 16m 46s.xml">
+      <configuration name="BenchmarkSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInsertSort_in_golang-algorithm_sort_insert - 2020.04.07 at 11h 47m 28s.xml">
-      <configuration name="TestInsertSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkSort_in_golang-algorithm_sort_insert - 2020.04.08 at 22h 16m 58s.xml">
+      <configuration name="BenchmarkSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInsertSort_in_golang-algorithm_sort_insert - 2020.04.07 at 11h 53m 04s.xml">
-      <configuration name="TestInsertSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkSort_in_golang-algorithm_sort_insert - 2020.04.08 at 22h 17m 32s.xml">
+      <configuration name="BenchmarkSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInsertSort_in_golang-algorithm_sort_insert - 2020.04.07 at 11h 54m 10s.xml">
-      <configuration name="TestInsertSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkSort_in_golang-algorithm_sort_insert - 2020.04.08 at 22h 18m 06s.xml">
+      <configuration name="BenchmarkSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInsertSort_in_golang-algorithm_sort_insert - 2020.04.07 at 11h 58m 45s.xml">
-      <configuration name="TestInsertSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkSort_in_golang-algorithm_sort_select - 2020.04.08 at 22h 19m 38s.xml">
+      <configuration name="BenchmarkSort in golang-algorithm/sort/select" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInsertSort_in_golang-algorithm_sort_insert - 2020.04.07 at 11h 58m 53s.xml">
-      <configuration name="TestInsertSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkSort_in_golang-algorithm_sort_insert - 2020.04.08 at 22h 19m 52s.xml">
+      <configuration name="BenchmarkSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInsertSort_in_golang-algorithm_sort_insert - 2020.04.07 at 11h 59m 17s.xml">
-      <configuration name="TestInsertSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkSort_in_golang-algorithm_sort_insert - 2020.04.08 at 22h 20m 07s.xml">
+      <configuration name="BenchmarkSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInsertSort_in_golang-algorithm_sort_insert - 2020.04.07 at 11h 59m 42s.xml">
-      <configuration name="TestInsertSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkSort_in_golang-algorithm_sort_insert - 2020.04.08 at 22h 20m 18s.xml">
+      <configuration name="BenchmarkSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -233,31 +315,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sort/bubble/bubble_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sort/bubble/bubble.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        <state relative-caret-position="255">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sort/insert/insert_test.go">
+    <entry file="file://$PROJECT_DIR$/sort/select/select.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        <state relative-caret-position="135">
+          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sort/insert/insert.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="255">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/bubble/bubble_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+          <folding>
+            <element signature="e#16#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/select/select_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="64" column="18" lean-forward="true" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+          <folding>
+            <element signature="e#17#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/insert/insert_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
         </state>
       </provider>
     </entry>

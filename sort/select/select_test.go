@@ -1,4 +1,4 @@
-package insert
+package _select
 
 import (
 	"math/rand"
@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestInsertSort(t *testing.T)  {
+func TestSelectSort(t *testing.T)  {
 	tests := []struct{
 		arr []int
 		result []int
@@ -22,6 +22,10 @@ func TestInsertSort(t *testing.T)  {
 		{
 			[]int{},
 			[]int{},
+		},
+		{
+			[]int{1, 2, 3, 5, 4},
+			[]int{1, 2, 3, 4, 5},
 		},
 		{
 			[]int{23, 45, 131, 67, 76, 10, 23, 5, 7, 89},

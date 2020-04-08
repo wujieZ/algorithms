@@ -1,6 +1,10 @@
 package bubble
 
-import "testing"
+import (
+	"math/rand"
+	"sort"
+	"testing"
+)
 
 func TestBubbleSort(t *testing.T)  {
 	tests := []struct{
@@ -34,6 +38,31 @@ func TestBubbleSort(t *testing.T)  {
 		for i, item := range data.arr {
 			if item != data.result[i] {
 				t.Errorf("expectd(%v), actual(%v)", data.result, data.arr)
+				break
+			}
+		}
+	}
+}
+
+func BenchmarkSort(b *testing.B) {
+	// 数据准备
+	var s []int
+	for i := 0; i < 10000; i++ {
+		s = append(s, rand.Intn(10000))
+	}
+	result := make([]int, 10000)
+	copy(result, s)
+	sort.Ints(result)
+	// 重置测试时间
+	b.ResetTimer()
+
+	for i := 0; i < b.N; i++ {
+		b.StartTimer()
+		Sort(s)
+		b.StopTimer()
+		for index, item := range s{
+			if item != result[index] {
+				b.Errorf("expectd(%v), actual(%v)", result, s)
 				break
 			}
 		}

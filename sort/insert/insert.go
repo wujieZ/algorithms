@@ -7,16 +7,15 @@ func Sort(arr []int) {
 	}
 	for i := 1; i < arrLen; i++ {
 		currentValue := arr[i]
-		insertIndex := i
+		j := i
 
-		for j := i - 1; j >= 0; j-- {
-			if currentValue < arr[j] {
-				arr[j + 1] = arr[j]
-				insertIndex = j
+		for ; j > 0; j-- {
+			if currentValue < arr[j - 1] {
+				arr[j] = arr[j - 1]
 			} else {
 				break
 			}
 		}
-		arr[insertIndex] = currentValue
+		arr[j] = currentValue
 	}
 }

@@ -1,4 +1,4 @@
-package _select
+package selection
 
 func Sort(arr []int)  {
 	arrLen := len(arr)

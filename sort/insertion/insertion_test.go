@@ -1,4 +1,4 @@
-package _select
+package insertion
 
 import (
 	"math/rand"
@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestSelectSort(t *testing.T)  {
+func TestInsertionSort(t *testing.T)  {
 	tests := []struct{
 		original []int
 		result []int
@@ -56,7 +56,7 @@ func TestSelectSort(t *testing.T)  {
 	}
 }
 
-func BenchmarkSort(b *testing.B) {
+func BenchmarkInsertionSort(b *testing.B) {
 	// 数据准备
 	var s []int
 	for i := 0; i < 10000; i++ {

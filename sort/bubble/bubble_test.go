@@ -56,7 +56,7 @@ func TestBubbleSort(t *testing.T)  {
 	}
 }
 
-func BenchmarkSort(b *testing.B) {
+func BenchmarkBubbleSort(b *testing.B) {
 	// 数据准备
 	var s []int
 	for i := 0; i < 10000; i++ {

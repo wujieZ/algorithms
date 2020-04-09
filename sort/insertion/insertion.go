@@ -1,4 +1,4 @@
-package insert
+package insertion
 
 func Sort(arr []int) {
 	arrLen := len(arr)

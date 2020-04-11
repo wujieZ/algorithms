@@ -59,10 +59,10 @@ func TestMergeSort(t *testing.T)  {
 func BenchmarkMergeSort(b *testing.B) {
 	// 数据准备
 	var s []int
-	for i := 0; i < 10000; i++ {
+	for i := 0; i < 10000000; i++ {
 		s = append(s, rand.Intn(10000))
 	}
-	result := make([]int, 10000)
+	result := make([]int, 10000000)
 	copy(result, s)
 	sort.Ints(result)
 	// 重置测试时间

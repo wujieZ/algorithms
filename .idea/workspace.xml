@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be88dbbb-8d19-46d2-978a-11666029f9b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sort/merge/merge.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/merge/merge_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/quick/quick.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sort/quick/quick_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/bubble/bubble_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/bubble/bubble_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/insert/insert.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/insert/insertion.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/insert/insert_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/insert/insertion_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/select/select.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/select/selection.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/select/select_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/select/selection_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,29 +28,33 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sort/bubble/bubble.go">
+        <entry file="file://$PROJECT_DIR$/sort/insertion/insertion_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sort/bubble/bubble_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-              <folding>
-                <element signature="e#16#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="229">
+              <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go.mod">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/sort/merge/merge.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sort/merge/merge_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="71" column="22" lean-forward="true" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+              <folding>
+                <element signature="e#15#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -82,6 +85,10 @@
         <option value="$PROJECT_DIR$/sort/insert/insertion_test.go" />
         <option value="$PROJECT_DIR$/sort/select/selection_test.go" />
         <option value="$PROJECT_DIR$/sort/bubble/bubble_test.go" />
+        <option value="$PROJECT_DIR$/sort/quick/quick_test.go" />
+        <option value="$PROJECT_DIR$/sort/quick/quick.go" />
+        <option value="$PROJECT_DIR$/sort/merge/merge_test.go" />
+        <option value="$PROJECT_DIR$/sort/merge/merge.go" />
       </list>
     </option>
   </component>
@@ -112,19 +119,19 @@
               <item name="golang-algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="golang-algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
-              <item name="bubble" type="462c0819:PsiDirectoryNode" />
+              <item name="insertion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="golang-algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="golang-algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
-              <item name="insert" type="462c0819:PsiDirectoryNode" />
+              <item name="merge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="golang-algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="golang-algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
-              <item name="select" type="462c0819:PsiDirectoryNode" />
+              <item name="selection" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.BenchmarkBubbleSort in golang-algorithm/sort/bubble">
+  <component name="RunManager" selected="Go Test.BenchmarkMergeSort in golang-algorithm/sort/merge">
     <configuration name="BenchmarkBubbleSort in golang-algorithm/sort/bubble" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang-algorithm" />
       <working_directory value="$PROJECT_DIR$/sort/bubble" />
@@ -167,90 +174,90 @@
       <pattern value="^BenchmarkBubbleSort$" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkInsertionSort in golang-algorithm/sort/insert" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkInsertionSort in golang-algorithm/sort/insertion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang-algorithm" />
-      <working_directory value="$PROJECT_DIR$/sort/insert" />
+      <working_directory value="$PROJECT_DIR$/sort/insertion" />
       <framework value="gobench" />
       <kind value="PACKAGE" />
-      <package value="golang-algorithm/sort/insert" />
+      <package value="golang-algorithm/sort/insertion" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^BenchmarkInsertionSort$" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkSort in golang-algorithm/sort/insert" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkMergeSort in golang-algorithm/sort/merge" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang-algorithm" />
-      <working_directory value="$PROJECT_DIR$/sort/insert" />
+      <working_directory value="$PROJECT_DIR$/sort/merge" />
       <framework value="gobench" />
       <kind value="PACKAGE" />
-      <package value="golang-algorithm/sort/insert" />
+      <package value="golang-algorithm/sort/merge" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkSort$" />
+      <pattern value="^BenchmarkMergeSort$" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkSort in golang-algorithm/sort/select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInsertionSort in golang-algorithm/sort/insertion" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang-algorithm" />
-      <working_directory value="$PROJECT_DIR$/sort/select" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="golang-algorithm/sort/select" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkSort$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSelectSort in golang-algorithm/sort/select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="golang-algorithm" />
-      <working_directory value="$PROJECT_DIR$/sort/select" />
+      <working_directory value="$PROJECT_DIR$/sort/insertion" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="golang-algorithm/sort/select" />
+      <package value="golang-algorithm/sort/insertion" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSelectSort$" />
+      <pattern value="^TestInsertionSort$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMergeSort in golang-algorithm/sort/merge" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang-algorithm" />
+      <working_directory value="$PROJECT_DIR$/sort/merge" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="golang-algorithm/sort/merge" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestMergeSort$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.BenchmarkMergeSort in golang-algorithm/sort/merge" />
+        <item itemvalue="Go Test.BenchmarkInsertionSort in golang-algorithm/sort/insertion" />
+        <item itemvalue="Go Test.TestMergeSort in golang-algorithm/sort/merge" />
+        <item itemvalue="Go Test.TestInsertionSort in golang-algorithm/sort/insertion" />
         <item itemvalue="Go Test.BenchmarkBubbleSort in golang-algorithm/sort/bubble" />
-        <item itemvalue="Go Test.BenchmarkInsertionSort in golang-algorithm/sort/insert" />
-        <item itemvalue="Go Test.BenchmarkSort in golang-algorithm/sort/insert" />
-        <item itemvalue="Go Test.BenchmarkSort in golang-algorithm/sort/select" />
-        <item itemvalue="Go Test.TestSelectSort in golang-algorithm/sort/select" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="BenchmarkSort_in_golang-algorithm_sort_insert - 2020.04.09 at 08h 27m 38s.xml">
-      <configuration name="BenchmarkSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkMergeSort_in_golang-algorithm_sort_merge - 2020.04.11 at 01h 13m 08s.xml">
+      <configuration name="BenchmarkMergeSort in golang-algorithm/sort/merge" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSelectSort_in_golang-algorithm_sort_select - 2020.04.09 at 08h 37m 41s.xml">
-      <configuration name="TestSelectSort in golang-algorithm/sort/select" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkMergeSort_in_golang-algorithm_sort_merge - 2020.04.11 at 01h 14m 11s.xml">
+      <configuration name="BenchmarkMergeSort in golang-algorithm/sort/merge" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestBubbleSort_in_golang-algorithm_sort_bubble - 2020.04.09 at 08h 39m 35s.xml">
-      <configuration name="TestBubbleSort in golang-algorithm/sort/bubble" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMergeSort_in_golang-algorithm_sort_merge - 2020.04.11 at 01h 17m 12s.xml">
+      <configuration name="TestMergeSort in golang-algorithm/sort/merge" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestBubbleSort_in_golang-algorithm_sort_bubble - 2020.04.09 at 08h 40m 24s.xml">
-      <configuration name="TestBubbleSort in golang-algorithm/sort/bubble" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkMergeSort_in_golang-algorithm_sort_merge - 2020.04.11 at 01h 17m 21s.xml">
+      <configuration name="BenchmarkMergeSort in golang-algorithm/sort/merge" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInsertSort_in_golang-algorithm_sort_insert - 2020.04.09 at 08h 40m 45s.xml">
-      <configuration name="TestInsertSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkMergeSort_in_golang-algorithm_sort_merge - 2020.04.11 at 01h 17m 31s.xml">
+      <configuration name="BenchmarkMergeSort in golang-algorithm/sort/merge" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSelectSort_in_golang-algorithm_sort_select - 2020.04.09 at 08h 40m 55s.xml">
-      <configuration name="TestSelectSort in golang-algorithm/sort/select" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMergeSort_in_golang-algorithm_sort_merge - 2020.04.11 at 01h 20m 45s.xml">
+      <configuration name="TestMergeSort in golang-algorithm/sort/merge" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkSort_in_golang-algorithm_sort_select - 2020.04.09 at 09h 28m 33s.xml">
-      <configuration name="BenchmarkSort in golang-algorithm/sort/select" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkMergeSort_in_golang-algorithm_sort_merge - 2020.04.11 at 01h 20m 54s.xml">
+      <configuration name="BenchmarkMergeSort in golang-algorithm/sort/merge" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkSort_in_golang-algorithm_sort_insert - 2020.04.09 at 09h 28m 47s.xml">
-      <configuration name="BenchmarkSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkInsertionSort_in_golang-algorithm_sort_insertion - 2020.04.11 at 01h 21m 08s.xml">
+      <configuration name="BenchmarkInsertionSort in golang-algorithm/sort/insertion" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkInsertionSort_in_golang-algorithm_sort_insert - 2020.04.09 at 09h 41m 23s.xml">
-      <configuration name="BenchmarkInsertionSort in golang-algorithm/sort/insert" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkMergeSort_in_golang-algorithm_sort_merge - 2020.04.11 at 01h 21m 22s.xml">
+      <configuration name="BenchmarkMergeSort in golang-algorithm/sort/merge" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkBubbleSort_in_golang-algorithm_sort_bubble - 2020.04.09 at 09h 43m 03s.xml">
-      <configuration name="BenchmarkBubbleSort in golang-algorithm/sort/bubble" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkMergeSort_in_golang-algorithm_sort_merge - 2020.04.11 at 09h 02m 28s.xml">
+      <configuration name="BenchmarkMergeSort in golang-algorithm/sort/merge" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -298,22 +305,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sort/insert/insertion.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/go.mod">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/select/selection.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sort/bubble/bubble.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -322,32 +315,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sort/insert/insertion_test.go">
+    <entry file="file://$PROJECT_DIR$/sort/selection/selection_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
-          <folding>
-            <element signature="e#16#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sort/select/selection_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
+        <state relative-caret-position="233">
           <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
-          <folding>
-            <element signature="e#17#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sort/bubble/bubble_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding>
             <element signature="e#16#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/quick/quick_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/selection/selection.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/insertion/insertion.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/quick/quick.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/merge/merge.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/insertion/insertion_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sort/merge/merge_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="71" column="22" lean-forward="true" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
+          <folding>
+            <element signature="e#15#57#0" expanded="true" />
           </folding>
         </state>
       </provider>

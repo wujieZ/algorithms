@@ -1,17 +1,20 @@
 package insertion
 
-func Sort(arr []int) {
+/**
+ params: inc增量, 方便希尔排序调用
+ */
+func Sort(arr []int, inc int) {
 	arrLen := len(arr)
 	if arrLen <= 1 {
 		return
 	}
-	for i := 1; i < arrLen; i++ {
+	for i := inc; i < arrLen; i++ {
 		currentValue := arr[i]
 		j := i
 
-		for ; j > 0; j-- {
-			if currentValue < arr[j - 1] {
-				arr[j] = arr[j - 1]
+		for ; j >= inc; j = j - inc {
+			if currentValue < arr[j - inc] {
+				arr[j] = arr[j - inc]
 			} else {
 				break
 			}

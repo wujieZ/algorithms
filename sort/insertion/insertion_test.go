@@ -46,7 +46,7 @@ func TestInsertionSort(t *testing.T)  {
 	}
 
 	for _, test := range tests {
-		Sort(test.original)
+		Sort(test.original, 1)
 		for i, item := range test.original {
 			if item != test.result[i] {
 				t.Errorf("expectd(%v), actual(%v)", test.result, test.original)
@@ -69,9 +69,7 @@ func BenchmarkInsertionSort(b *testing.B) {
 	b.ResetTimer()
 
 	for i := 0; i < b.N; i++ {
-		b.StartTimer()
-		Sort(s)
-		b.StopTimer()
+		Sort(s, 1)
 		for index, item := range s{
 			if item != result[index] {
 				b.Errorf("expectd(%v), actual(%v)", result, s)

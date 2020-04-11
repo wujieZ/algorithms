@@ -69,9 +69,7 @@ func BenchmarkMergeSort(b *testing.B) {
 	b.ResetTimer()
 
 	for i := 0; i < b.N; i++ {
-		b.StartTimer()
 		Sort(s)
-		b.StopTimer()
 		for index, item := range s{
 			if item != result[index] {
 				b.Errorf("expectd(%v), actual(%v)", result, s)

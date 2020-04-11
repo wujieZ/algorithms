@@ -1,4 +1,4 @@
-package selection
+package shell
 
 import (
 	"math/rand"
@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestSelectSort(t *testing.T)  {
+func TestShellSort(t *testing.T)  {
 	tests := []struct{
 		original []int
 		result []int
@@ -56,7 +56,7 @@ func TestSelectSort(t *testing.T)  {
 	}
 }
 
-func BenchmarkSelectionSort(b *testing.B) {
+func BenchmarkShellSort(b *testing.B) {
 	// 数据准备
 	var s []int
 	for i := 0; i < 10000; i++ {
@@ -69,7 +69,7 @@ func BenchmarkSelectionSort(b *testing.B) {
 	b.ResetTimer()
 
 	for i := 0; i < b.N; i++ {
-		Sort(s)
+		sort.Ints(s)
 		for index, item := range s{
 			if item != result[index] {
 				b.Errorf("expectd(%v), actual(%v)", result, s)

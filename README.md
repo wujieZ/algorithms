@@ -1,1 +1,1 @@
-##使用go语言实现一些基础算法和leetcode题目
+##基础算法和leetcode题目

@@ -1,4 +1,4 @@
-package quick
+package heap
 
 import (
 	"math/rand"
@@ -6,14 +6,14 @@ import (
 	"testing"
 )
 
-func TestQuickSort(t *testing.T)  {
+func TestHeapSort(t *testing.T)  {
 	tests := []struct{
 		original []int
 		result []int
 	} {
 		{
-			[]int{2, 1},
-			[]int{1, 2},
+			[]int{2, 1, 3, 4},
+			[]int{1, 2, 3, 4},
 		},
 		{
 			[]int{1},
@@ -56,7 +56,7 @@ func TestQuickSort(t *testing.T)  {
 	}
 }
 
-func BenchmarkQuickSort(b *testing.B) {
+func BenchmarkHeapSort(b *testing.B) {
 	// 数据准备
 	var s []int
 	for i := 0; i < 10000; i++ {

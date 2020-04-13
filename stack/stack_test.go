@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestStackPush(t *testing.T) {
+func TestStack_Push(t *testing.T) {
 	tests := []struct{
 		original *Stack
 		items []int
@@ -29,7 +29,7 @@ func TestStackPush(t *testing.T) {
 	}
 }
 
-func TestStackPop(t *testing.T) {
+func TestStack_Pop(t *testing.T) {
 	tests := []struct{
 		original *Stack
 		success bool
@@ -79,5 +79,4 @@ func TestStackIsEmpty(t *testing.T)  {
 			t.Errorf("%v, isEmpty expected %v, but got %v", *test.arr, test.isEmpty, result)
 		}
 	}
-
 }

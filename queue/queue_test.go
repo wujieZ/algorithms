@@ -3,7 +3,7 @@ package queue
 import "testing"
 
 
-func TestQueuePush(t *testing.T) {
+func TestQueue_Push(t *testing.T) {
 	tests := []struct{
 		original *Queue
 		items []int
@@ -28,7 +28,7 @@ func TestQueuePush(t *testing.T) {
 	}
 }
 
-func TestQueueShift(t *testing.T) {
+func TestQueue_Shift(t *testing.T) {
 	tests := []struct{
 		original *Queue
 		success bool

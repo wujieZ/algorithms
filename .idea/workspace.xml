@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be88dbbb-8d19-46d2-978a-11666029f9b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/binarytree/traverse/traverse.go" beforeDir="false" afterPath="$PROJECT_DIR$/binarytree/traverse/traverse.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/binarytree/traverse/traverse_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/binarytree/traverse/traverse_test.go" afterDir="false" />
     </list>
@@ -16,6 +15,7 @@
     <SUITE FILE_PATH="coverage/golang_algorithm$TestStackPop_in_golang_algorithm_stack.out" NAME="TestStackPop in golang-algorithm/stack Coverage Results" MODIFIED="1586737597930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/golang_algorithm$TestSelectSort_in_golang_algorithm_sort_select.out" NAME="TestSelectSort in golang-algorithm/sort/select Coverage Results" MODIFIED="1586357897711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/golang_algorithm$TestQueuePush_in_golang_algorithm_queue.out" NAME="TestQueuePush in golang-algorithm/queue Coverage Results" MODIFIED="1586690189641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/golang_algorithm$TestTreeNode_LevelOrder_in_golang_algorithm_binarytree_traverse.out" NAME="TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse Coverage Results" MODIFIED="1588323532117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/golang_algorithm$TestQueueIsEmpty_in_golang_algorithm_stack.out" NAME="TestQueueIsEmpty in golang-algorithm/stack Coverage Results" MODIFIED="1586694346155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/golang_algorithm$TestInsertSort_in_golang_algorithm_sort_insert.out" NAME="TestInsertSort in golang-algorithm/sort/insert Coverage Results" MODIFIED="1586305612670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/golang_algorithm$TestQuickSort_in_golang_algorithm_sort_quick.out" NAME="TestQuickSort in golang-algorithm/sort/quick Coverage Results" MODIFIED="1586577037183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -57,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binarytree/traverse/traverse.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
+            <state relative-caret-position="491">
+              <caret line="97" column="24" lean-forward="true" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/binarytree/traverse/traverse_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="196" column="21" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
+            <state relative-caret-position="-1323">
+              <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
               <folding>
                 <element signature="e#18#46#0" expanded="true" />
               </folding>
@@ -120,8 +120,8 @@
         <option value="$PROJECT_DIR$/stack/stack_test.go" />
         <option value="$PROJECT_DIR$/binarytree/traverse.go" />
         <option value="$PROJECT_DIR$/binarytree/traverse_test.go" />
-        <option value="$PROJECT_DIR$/binarytree/traverse/traverse.go" />
         <option value="$PROJECT_DIR$/binarytree/traverse/traverse_test.go" />
+        <option value="$PROJECT_DIR$/binarytree/traverse/traverse.go" />
       </list>
     </option>
   </component>
@@ -153,11 +153,6 @@
               <item name="golang-algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="binarytree" type="462c0819:PsiDirectoryNode" />
               <item name="traverse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="golang-algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="golang-algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,17 +189,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Go Test.TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse">
-    <configuration name="TestTreeNode_BreadthFirstSearch in golang-algorithm/binarytree/traverse" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="golang-algorithm" />
-      <working_directory value="$PROJECT_DIR$/binarytree/traverse" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="golang-algorithm/binarytree/traverse" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestTreeNode_BreadthFirstSearch$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestTreeNode_BreadthFirstTraverse in golang-algorithm/binarytree/traverse" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang-algorithm" />
       <working_directory value="$PROJECT_DIR$/binarytree/traverse" />
@@ -238,7 +222,7 @@
       <pattern value="^TestTreeNode_LevelOrder$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestTreeNode_PostOrderTraverse in golang-algorithm/binarytree/traverse" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTreeNode_PreOrderTraverse in golang-algorithm/binarytree/traverse" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golang-algorithm" />
       <working_directory value="$PROJECT_DIR$/binarytree/traverse" />
       <framework value="gotest" />
@@ -246,48 +230,58 @@
       <package value="golang-algorithm/binarytree/traverse" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestTreeNode_PostOrderTraverse$" />
+      <pattern value="^TestTreeNode_PreOrderTraverse$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="traverse_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="golang-algorithm" />
+      <working_directory value="$PROJECT_DIR$/binarytree/traverse" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="golang-algorithm" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/binarytree/traverse/traverse_test.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Test.TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse" />
+        <item itemvalue="Go Test.TestTreeNode_PreOrderTraverse in golang-algorithm/binarytree/traverse" />
+        <item itemvalue="Go Test.traverse_test.go" />
         <item itemvalue="Go Test.TestTreeNode_DeepFirstTraverse in golang-algorithm/binarytree/traverse" />
         <item itemvalue="Go Test.TestTreeNode_BreadthFirstTraverse in golang-algorithm/binarytree/traverse" />
-        <item itemvalue="Go Test.TestTreeNode_BreadthFirstSearch in golang-algorithm/binarytree/traverse" />
-        <item itemvalue="Go Test.TestTreeNode_PostOrderTraverse in golang-algorithm/binarytree/traverse" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTreeNode_LevelOrder_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 16h 12m 06s.xml">
-      <configuration name="TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestTreeNode_LevelOrder_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 16h 13m 42s.xml">
-      <configuration name="TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestTreeNode_LevelOrder_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 16h 18m 12s.xml">
-      <configuration name="TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestTreeNode_LevelOrder_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 16h 20m 11s.xml">
-      <configuration name="TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestTreeNode_LevelOrder_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 16h 20m 19s.xml">
-      <configuration name="TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestTreeNode_LevelOrder_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 16h 20m 50s.xml">
-      <configuration name="TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestTreeNode_LevelOrder_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 16h 43m 29s.xml">
-      <configuration name="TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestTreeNode_LevelOrder_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 16h 50m 55s.xml">
-      <configuration name="TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestTreeNode_LevelOrder_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 16h 51m 05s.xml">
       <configuration name="TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestTreeNode_LevelOrder_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 16h 52m 48s.xml">
+      <configuration name="TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTreeNode_LevelOrder_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 16h 53m 03s.xml">
+      <configuration name="TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="traverse_test_go - 2020.05.01 at 16h 58m 38s.xml">
+      <configuration name="traverse_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTreeNode_LevelOrder_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 16h 58m 52s.xml">
+      <configuration name="TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTreeNode_PreOrderTraverse_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 17h 23m 55s.xml">
+      <configuration name="TestTreeNode_PreOrderTraverse in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTreeNode_PreOrderTraverse_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 17h 24m 04s.xml">
+      <configuration name="TestTreeNode_PreOrderTraverse in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTreeNode_PreOrderTraverse_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 17h 24m 16s.xml">
+      <configuration name="TestTreeNode_PreOrderTraverse in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTreeNode_PreOrderTraverse_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 17h 24m 59s.xml">
+      <configuration name="TestTreeNode_PreOrderTraverse in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTreeNode_LevelOrder_in_golang-algorithm_binarytree_traverse - 2020.05.01 at 22h 20m 05s.xml">
       <configuration name="TestTreeNode_LevelOrder in golang-algorithm/binarytree/traverse" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -295,7 +289,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16720517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -494,13 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/binarytree/traverse/traverse.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/queue/queue.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -508,10 +495,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/binarytree/traverse/traverse.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="97" column="24" lean-forward="true" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/binarytree/traverse/traverse_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="196" column="21" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
+        <state relative-caret-position="-1323">
+          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
           <folding>
             <element signature="e#18#46#0" expanded="true" />
           </folding>

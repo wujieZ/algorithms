@@ -61,7 +61,7 @@ func (node *TreeNode) BreadthFirstTraverse() []int{
 	return result
 }
 
-// 深度优先遍历
+// 深度优先遍历(非递归写法)
 func (node *TreeNode) DeepFirstTraverse() []int{
 	var result []int
 	if node == nil {
@@ -94,8 +94,8 @@ func (node *TreeNode) LevelOrder() [][]int{
 	for len(q) > 0 {
 		l := len(q)
 		var arr []int
-		for j := 0; j < l; j++ {
-			node := q[j]
+		for i := 0; i < l; i++ {
+			node := q[i]
 			arr = append(arr, node.Value)
 			if node.LeftNode != nil {
 				q = append(q, node.LeftNode)

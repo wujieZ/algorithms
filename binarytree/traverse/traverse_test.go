@@ -12,10 +12,10 @@ func TestTreeNode_PreOrderTraverse(t *testing.T) {
 		{
 			&TreeNode{
 				5,
-				&TreeNode{3, nil, nil},
+				&TreeNode{3, &TreeNode{9, nil, nil}, nil},
 				&TreeNode{6, nil, nil},
 			},
-			[]int {5, 3, 6},
+			[]int {5, 3, 9, 6},
 		},
 		{
 			&TreeNode{
@@ -34,6 +34,7 @@ func TestTreeNode_PreOrderTraverse(t *testing.T) {
 		for i, item := range PreOrderResult {
 			if item != test.result[i] {
 				t.Errorf("expect%v, but got %v", test.result, PreOrderResult)
+				break
 			}
 		}
 		PreOrderResult = PreOrderResult[0:0]
@@ -64,6 +65,7 @@ func TestTreeNode_InOrderTraverse(t *testing.T) {
 		for i, item := range InOrderResult {
 			if item != test.result[i] {
 				t.Errorf("expect%v, but got %v", test.result, InOrderResult)
+				break
 			}
 		}
 		InOrderResult = InOrderResult[0:0]
@@ -98,6 +100,7 @@ func TestTreeNode_PostOrderTraverse(t *testing.T) {
 		for i, item := range InOrderResult {
 			if item != test.result[i] {
 				t.Errorf("expect%v, but got %v", test.result, PostOrderResult)
+				break
 			}
 		}
 		PostOrderResult = PostOrderResult[0:0]
@@ -131,6 +134,7 @@ func TestTreeNode_BreadthFirstTraverse(t *testing.T) {
 		for i, item := range result {
 			if item != test.result[i] {
 				t.Errorf("expect%v, but got %v", test.result, result)
+				break
 			}
 		}
 	}
@@ -163,6 +167,7 @@ func TestTreeNode_DeepFirstTraverse(t *testing.T) {
 		for i, item := range result {
 			if item != test.result[i] {
 				t.Errorf("expect%v, but got %v", test.result, result)
+				break
 			}
 		}
 	}

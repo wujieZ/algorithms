@@ -1,4 +1,4 @@
-package traverse
+package binarytree
 
 type TreeNode struct {
 	Value int

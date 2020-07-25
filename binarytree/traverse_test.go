@@ -1,4 +1,4 @@
-package traverse
+package binarytree
 
 import (
 	"testing"
